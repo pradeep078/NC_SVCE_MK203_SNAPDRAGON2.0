@@ -66,6 +66,7 @@
     </div>
     <button class="btn btn-primary">Get Results</button>
   </form>
+  <a href="sms.php"><button>send sms</button></a> 
   </div>
   </div><!-- /.container -->
   <!-- /.container -->
