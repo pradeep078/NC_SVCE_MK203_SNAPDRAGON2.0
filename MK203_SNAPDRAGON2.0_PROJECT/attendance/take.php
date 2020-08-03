@@ -97,7 +97,9 @@
           <span class="roll"><a href="student.php?roll='.str_replace("/","-",$roll).'&code='.$node->getCode().'&year='.$node->getYear().'&section='.$node->getSection().'">'.$roll.'</a></span>: 
           <span class="present">'.$data['present'].'</span>'.
           ' <button class="marker btn">A</button> <button class="btn btn-danger delete-roll" data-toggle="modal" data-target=".delete-warning">&times;</button>
-        </div>';
+	        <a href="verify.php"><button class="btn btn-success">Verify!</button></a> 
+
+	</div>';
       }      
     ?>
     </div>
